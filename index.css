@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(83, 173, 83);
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+input{
+    height: 2rem;
+    width: 10rem;
+}
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    font-size: 100px;
+    color: white;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 60px;
+    color: white;
+}
+#span{
+    display: none;
+   
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    font-size: 60px;
+    color: white;
+}
